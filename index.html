@@ -582,10 +582,11 @@
     background:linear-gradient(135deg,var(--rose) 0%,#a84a38 100%);
     padding:6rem 6vw;text-align:center;position:relative;overflow:hidden;
   }
-  .wa-section::before{
+.wa-section::before{
     content:'';position:absolute;
     top:-50%;left:-10%;width:120%;height:200%;
     background:radial-gradient(ellipse at center,rgba(255,255,255,0.08) 0%,transparent 60%);
+    pointer-events:none;
   }
   .wa-eyebrow{
     font-size:0.72rem;letter-spacing:0.25em;text-transform:uppercase;
